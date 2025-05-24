@@ -1,0 +1,3176 @@
+{
+    "1": {
+        "1": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 41030180465.428764,
+                    "c_peak": 38094446291.98537,
+                    "perc_quality": 92.84493965139396,
+                    "file": "images/UVVIS/Batch_1_Week_1_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_1_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 131.1,
+                    "PolyDis": 0.05605
+                },
+                "ELISA": {
+                    "positive": 0.19916666666666663,
+                    "negative": 0.4476,
+                    "control1": 0.05396666666666666,
+                    "control2": 0.1217
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_1_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_1_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 35800064913.98897,
+                    "c_peak": 35666777519.12205,
+                    "perc_quality": 99.62768951624209,
+                    "file": "images/UVVIS/Batch_1_Week_1_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_1_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.4,
+                    "PolyDis": 0.09168
+                },
+                "ELISA": {
+                    "positive": 0.2233,
+                    "negative": 0.25630000000000003,
+                    "control1": 0.05396666666666666,
+                    "control2": 0.1217
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_1_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_1_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 30409480166.0527,
+                    "c_peak": 35666777519.12205,
+                    "perc_quality": 117.2883499631088,
+                    "file": "images/UVVIS/Batch_1_Week_1_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_1_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.9,
+                    "PolyDis": 0.05988
+                },
+                "ELISA": {
+                    "positive": 0.17959999999999998,
+                    "negative": 0.25165000000000004,
+                    "control1": 0.05396666666666666,
+                    "control2": 0.1217
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_1_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_1_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 24258539253.670696,
+                    "c_peak": 35666777519.12205,
+                    "perc_quality": 147.0277214392664,
+                    "file": "images/UVVIS/Batch_1_Week_1_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_1_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 133.2,
+                    "PolyDis": 0.07626
+                },
+                "ELISA": {
+                    "positive": 0.36943333333333334,
+                    "negative": 0.5503666666666667,
+                    "control1": 0.05396666666666666,
+                    "control2": 0.1217
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_1_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_1_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 32674887592.122272,
+                    "c_peak": 35666777519.12205,
+                    "perc_quality": 109.15654237084844,
+                    "file": "images/UVVIS/Batch_1_Week_1_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_1_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 131.3,
+                    "PolyDis": 0.0645
+                },
+                "ELISA": {
+                    "positive": 0.2129,
+                    "negative": 0.3236333333333333,
+                    "control1": 0.05396666666666666,
+                    "control2": 0.1217
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_1_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_1_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 39858778028.20352,
+                    "c_peak": 35666777519.12205,
+                    "perc_quality": 89.48286747246674,
+                    "file": "images/UVVIS/Batch_1_Week_1_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_1_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 96.93,
+                    "PolyDis": 0.008268
+                },
+                "ELISA": {
+                    "positive": 0.1371,
+                    "negative": 0.13066666666666668,
+                    "control1": 0.05396666666666666,
+                    "control2": 0.1217
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_1_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_1_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "2": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 39311775533.781364,
+                    "c_peak": 39391420019.953445,
+                    "perc_quality": 100.20259702109777,
+                    "file": "images/UVVIS/Batch_1_Week_2_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_2_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.5,
+                    "PolyDis": 0.06918
+                },
+                "ELISA": {
+                    "positive": 0.05645,
+                    "negative": 0.0615,
+                    "control1": 0.0637,
+                    "control2": 0.05623333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_2_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_2_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 38252270287.32384,
+                    "c_peak": 38809444629.19854,
+                    "perc_quality": 101.45657849243877,
+                    "file": "images/UVVIS/Batch_1_Week_2_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_2_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.8,
+                    "PolyDis": 0.07501
+                },
+                "ELISA": {
+                    "positive": 0.06276666666666668,
+                    "negative": 0.05050000000000001,
+                    "control1": 0.0637,
+                    "control2": 0.05623333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_2_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_2_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 31917028119.559784,
+                    "c_peak": 32149983372.131695,
+                    "perc_quality": 100.72987764305394,
+                    "file": "images/UVVIS/Batch_1_Week_2_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_2_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.9,
+                    "PolyDis": 0.06597
+                },
+                "ELISA": {
+                    "positive": 0.05795,
+                    "negative": 0.05585,
+                    "control1": 0.0637,
+                    "control2": 0.05623333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_2_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_2_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 36138253178.17528,
+                    "c_peak": 34020618556.70103,
+                    "perc_quality": 94.1401854399727,
+                    "file": "images/UVVIS/Batch_1_Week_2_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_2_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 131.7,
+                    "PolyDis": 0.07164
+                },
+                "ELISA": {
+                    "positive": 0.06245,
+                    "negative": 0.05556666666666666,
+                    "control1": 0.0637,
+                    "control2": 0.05623333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_2_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_2_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 34602560697.98426,
+                    "c_peak": 34943465247.75524,
+                    "perc_quality": 100.9852003519232,
+                    "file": "images/UVVIS/Batch_1_Week_2_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_2_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 132.7,
+                    "PolyDis": 0.04088
+                },
+                "ELISA": {
+                    "positive": 0.05996666666666667,
+                    "negative": 0.05895,
+                    "control1": 0.0637,
+                    "control2": 0.05623333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_2_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_2_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 41396967200.277824,
+                    "c_peak": 42492517459.26172,
+                    "perc_quality": 102.64645053267705,
+                    "file": "images/UVVIS/Batch_1_Week_2_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_2_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 95.93,
+                    "PolyDis": 0.02311
+                },
+                "ELISA": {
+                    "positive": 0.056033333333333345,
+                    "negative": 0.05583333333333334,
+                    "control1": 0.0637,
+                    "control2": 0.05623333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_2_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_2_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "3": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 39822008565.92288,
+                    "c_peak": 39707349517.791824,
+                    "perc_quality": 99.7120711579848,
+                    "file": "images/UVVIS/Batch_1_Week_3_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_3_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.3,
+                    "PolyDis": 0.04528
+                },
+                "ELISA": {
+                    "positive": 0.10955000000000001,
+                    "negative": 0.1317,
+                    "control1": 0.0939,
+                    "control2": 0.07836666666666665
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_3_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_3_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 38356677402.44177,
+                    "c_peak": 39117060192.88327,
+                    "perc_quality": 101.98240004592549,
+                    "file": "images/UVVIS/Batch_1_Week_3_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_3_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.3,
+                    "PolyDis": 0.05583
+                },
+                "ELISA": {
+                    "positive": 0.13445000000000001,
+                    "negative": 0.09400000000000001,
+                    "control1": 0.0939,
+                    "control2": 0.07836666666666665
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_3_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_3_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 32262252515.417072,
+                    "c_peak": 32440971067.509144,
+                    "perc_quality": 100.55395559255098,
+                    "file": "images/UVVIS/Batch_1_Week_3_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_3_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.5,
+                    "PolyDis": 0.06753
+                },
+                "ELISA": {
+                    "positive": 0.1375,
+                    "negative": 0.10260000000000001,
+                    "control1": 0.0939,
+                    "control2": 0.07836666666666665
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_3_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_3_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 35643908185.29084,
+                    "c_peak": 33405387429.33156,
+                    "perc_quality": 93.71976623797093,
+                    "file": "images/UVVIS/Batch_1_Week_3_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_3_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 133.7,
+                    "PolyDis": 0.08759
+                },
+                "ELISA": {
+                    "positive": 0.11745,
+                    "negative": 0.1206,
+                    "control1": 0.0939,
+                    "control2": 0.07836666666666665
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_3_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_3_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 34880147441.0043,
+                    "c_peak": 35400731626.20552,
+                    "perc_quality": 101.49249422205489,
+                    "file": "images/UVVIS/Batch_1_Week_3_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_3_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.2,
+                    "PolyDis": 0.05231
+                },
+                "ELISA": {
+                    "positive": 0.08235,
+                    "negative": 0.1362,
+                    "control1": 0.0939,
+                    "control2": 0.07836666666666665
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_3_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_3_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 38420683503.44884,
+                    "c_peak": 40829730628.53342,
+                    "perc_quality": 106.27018289476378,
+                    "file": "images/UVVIS/Batch_1_Week_3_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_3_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 96.09,
+                    "PolyDis": 0.01124
+                },
+                "ELISA": {
+                    "positive": 0.0786,
+                    "negative": 0.078,
+                    "control1": 0.0939,
+                    "control2": 0.07836666666666665
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_3_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_3_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "4": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 50128125688.0089,
+                    "c_peak": 40355836381.7759,
+                    "perc_quality": 80.5053766281738,
+                    "file": "images/UVVIS/Batch_1_Week_4_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_4_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.5,
+                    "PolyDis": 0.05531
+                },
+                "ELISA": {
+                    "positive": 0.15265,
+                    "negative": 0.19605,
+                    "control1": 0.1268,
+                    "control2": 0.0672
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_4_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_4_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 48615130406.7565,
+                    "c_peak": 39682407715.3309,
+                    "perc_quality": 81.625632561948,
+                    "file": "images/UVVIS/Batch_1_Week_4_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_4_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.3,
+                    "PolyDis": 0.07452
+                },
+                "ELISA": {
+                    "positive": 0.11925,
+                    "negative": 0.17535,
+                    "control1": 0.1268,
+                    "control2": 0.0672
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_4_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_4_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 39546010626.8286,
+                    "c_peak": 31983704689.0589,
+                    "perc_quality": 80.8771964152578,
+                    "file": "images/UVVIS/Batch_1_Week_4_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_4_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.6,
+                    "PolyDis": 0.07237
+                },
+                "ELISA": {
+                    "positive": 0.13745000000000002,
+                    "negative": 0.133,
+                    "control1": 0.1268,
+                    "control2": 0.0672
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_4_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_4_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 45912574929.128,
+                    "c_peak": 34419687396.0758,
+                    "perc_quality": 74.9678872274254,
+                    "file": "images/UVVIS/Batch_1_Week_4_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_4_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 134.2,
+                    "PolyDis": 0.07143
+                },
+                "ELISA": {
+                    "positive": 0.11349999999999999,
+                    "negative": 0.16515000000000002,
+                    "control1": 0.1268,
+                    "control2": 0.0672
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_4_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_4_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 41158419639.4323,
+                    "c_peak": 33929165281.011,
+                    "perc_quality": 82.435539503817,
+                    "file": "images/UVVIS/Batch_1_Week_4_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_4_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.5,
+                    "PolyDis": 0.06088
+                },
+                "ELISA": {
+                    "positive": 0.09436666666666667,
+                    "negative": 0.1403,
+                    "control1": 0.1268,
+                    "control2": 0.0672
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_4_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_4_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 47007260833.9405,
+                    "c_peak": 41320252743.5983,
+                    "perc_quality": 87.9018517789574,
+                    "file": "images/UVVIS/Batch_1_Week_4_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_4_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 97.99,
+                    "PolyDis": 0.01403
+                },
+                "ELISA": {
+                    "positive": 0.08696666666666665,
+                    "negative": 0.16875,
+                    "control1": 0.1268,
+                    "control2": 0.0672
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_4_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_4_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "5": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 50321732794.9558,
+                    "c_peak": 40846358496.8407,
+                    "perc_quality": 81.1704133148116,
+                    "file": "images/UVVIS/Batch_1_Week_5_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_5_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.3,
+                    "PolyDis": 0.04675
+                },
+                "ELISA": {
+                    "positive": 0.21455,
+                    "negative": 0.7733,
+                    "control1": 0.19265,
+                    "control2": 0.2622
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_5_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_5_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 49139435702.24,
+                    "c_peak": 40281010974.3931,
+                    "perc_quality": 81.9728806380186,
+                    "file": "images/UVVIS/Batch_1_Week_5_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_5_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.3,
+                    "PolyDis": 0.08247
+                },
+                "ELISA": {
+                    "positive": 0.3449,
+                    "negative": 0.29005000000000003,
+                    "control1": 0.19265,
+                    "control2": 0.2622
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_5_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_5_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 41153426255.6658,
+                    "c_peak": 32964748919.1886,
+                    "perc_quality": 80.1020763481392,
+                    "file": "images/UVVIS/Batch_1_Week_5_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_5_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.9,
+                    "PolyDis": 0.06181
+                },
+                "ELISA": {
+                    "positive": 0.19435,
+                    "negative": 0.27335,
+                    "control1": 0.19265,
+                    "control2": 0.2622
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_5_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_5_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 45812934225.7872,
+                    "c_peak": 34469571000.9977,
+                    "perc_quality": 75.2398238259872,
+                    "file": "images/UVVIS/Batch_1_Week_5_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_5_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 133.2,
+                    "PolyDis": 0.09049
+                },
+                "ELISA": {
+                    "positive": 0.18645,
+                    "negative": 0.41605000000000003,
+                    "control1": 0.19265,
+                    "control2": 0.2622
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_5_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_5_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 41873608377.9901,
+                    "c_peak": 34353175922.8467,
+                    "perc_quality": 82.0401614609924,
+                    "file": "images/UVVIS/Batch_1_Week_5_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_5_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.6,
+                    "PolyDis": 0.06568
+                },
+                "ELISA": {
+                    "positive": 0.19690000000000002,
+                    "negative": 0.38795,
+                    "control1": 0.19265,
+                    "control2": 0.2622
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_5_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_5_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 45083446251.898,
+                    "c_peak": 40264383106.0858,
+                    "perc_quality": 89.3107924383457,
+                    "file": "images/UVVIS/Batch_1_Week_5_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_5_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 99.24,
+                    "PolyDis": 0.03112
+                },
+                "ELISA": {
+                    "positive": 0.24309999999999998,
+                    "negative": 0.1382,
+                    "control1": 0.19265,
+                    "control2": 0.2622
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_5_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_5_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "6": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 53146853146.8531,
+                    "c_peak": 42301296973.728,
+                    "perc_quality": 79.5932298321461,
+                    "file": "images/UVVIS/Batch_1_Week_6_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_6_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.2,
+                    "PolyDis": 0.05675
+                },
+                "ELISA": {
+                    "positive": 0.0761,
+                    "negative": 0.09313333333333335,
+                    "control1": 0.07816666666666666,
+                    "control2": 0.0564
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_6_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_6_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 48691619967.1799,
+                    "c_peak": 39906883937.4792,
+                    "perc_quality": 81.9584231627087,
+                    "file": "images/UVVIS/Batch_1_Week_6_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_6_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 128.2,
+                    "PolyDis": 0.04608
+                },
+                "ELISA": {
+                    "positive": 0.07405,
+                    "negative": 0.0928,
+                    "control1": 0.07816666666666666,
+                    "control2": 0.0564
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_6_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_6_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 42647355889.8097,
+                    "c_peak": 33929165281.011,
+                    "perc_quality": 79.5574885549192,
+                    "file": "images/UVVIS/Batch_1_Week_6_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_6_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.8,
+                    "PolyDis": 0.07959
+                },
+                "ELISA": {
+                    "positive": 0.069,
+                    "negative": 0.07756666666666666,
+                    "control1": 0.07816666666666666,
+                    "control2": 0.0564
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_6_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_6_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 44968598425.2683,
+                    "c_peak": 34220152976.3884,
+                    "perc_quality": 76.0978864690605,
+                    "file": "images/UVVIS/Batch_1_Week_6_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_6_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 135.5,
+                    "PolyDis": 0.08494
+                },
+                "ELISA": {
+                    "positive": 0.08605,
+                    "negative": 0.08126666666666667,
+                    "control1": 0.07816666666666666,
+                    "control2": 0.0564
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_6_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_6_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 43931336433.7707,
+                    "c_peak": 35741602926.5048,
+                    "perc_quality": 81.3578776060855,
+                    "file": "images/UVVIS/Batch_1_Week_6_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_6_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.7,
+                    "PolyDis": 0.04008
+                },
+                "ELISA": {
+                    "positive": 0.0779,
+                    "negative": 0.06886666666666667,
+                    "control1": 0.07816666666666666,
+                    "control2": 0.0564
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_6_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_6_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 44684429494.5561,
+                    "c_peak": 40256069171.9322,
+                    "perc_quality": 90.0897015521627,
+                    "file": "images/UVVIS/Batch_1_Week_6_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_1_Week_6_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 97.93,
+                    "PolyDis": 0.04286
+                },
+                "ELISA": {
+                    "positive": 0.06386666666666667,
+                    "negative": 0.0673,
+                    "control1": 0.07816666666666666,
+                    "control2": 0.0564
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_1_Week_6_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_1_Week_6_calix_MDA.png"
+                    }
+                }
+            }
+        }
+    },
+    "2": {
+        "1": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 32985839217.58216,
+                    "c_peak": 31426671100.76488,
+                    "perc_quality": 95.27321980037358,
+                    "file": "images/UVVIS/Batch_2_Week_1_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_1_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.2,
+                    "PolyDis": 0.0529
+                },
+                "ELISA": {
+                    "positive": 0.309,
+                    "negative": 0.4461,
+                    "control1": 0.18985000000000002,
+                    "control2": 0.6562
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_1_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_1_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 39017619835.53609,
+                    "c_peak": 36489857000.33256,
+                    "perc_quality": 93.52148376590281,
+                    "file": "images/UVVIS/Batch_2_Week_1_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_1_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.8,
+                    "PolyDis": 0.08047
+                },
+                "ELISA": {
+                    "positive": 0.2596,
+                    "negative": 0.20265,
+                    "control1": 0.18985000000000002,
+                    "control2": 0.6562
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_1_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_1_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 25175052146.81456,
+                    "c_peak": 22347855004.988358,
+                    "perc_quality": 88.76984593581494,
+                    "file": "images/UVVIS/Batch_2_Week_1_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_1_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 141.5,
+                    "PolyDis": 0.1133
+                },
+                "ELISA": {
+                    "positive": 0.197,
+                    "negative": 0.4538,
+                    "control1": 0.18985000000000002,
+                    "control2": 0.6562
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_1_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_1_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 29853852736.033844,
+                    "c_peak": 28591619554.373127,
+                    "perc_quality": 95.77195883954639,
+                    "file": "images/UVVIS/Batch_2_Week_1_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_1_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 124.4,
+                    "PolyDis": 0.06456
+                },
+                "ELISA": {
+                    "positive": 0.41035,
+                    "negative": 0.23495,
+                    "control1": 0.18985000000000002,
+                    "control2": 0.6562
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_1_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_1_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 28296597916.85109,
+                    "c_peak": 26937146657.79847,
+                    "perc_quality": 95.19570775593823,
+                    "file": "images/UVVIS/Batch_2_Week_1_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_1_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 133.5,
+                    "PolyDis": 0.1106
+                },
+                "ELISA": {
+                    "positive": 0.3893,
+                    "negative": 0.39215,
+                    "control1": 0.18985000000000002,
+                    "control2": 0.6562
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_1_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_1_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 33799533799.533794,
+                    "c_peak": 35367475889.59096,
+                    "perc_quality": 104.6389459078243,
+                    "file": "images/UVVIS/Batch_2_Week_1_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_1_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 94.69,
+                    "PolyDis": 0.005154
+                },
+                "ELISA": {
+                    "positive": 0.3639,
+                    "negative": 0.20325000000000001,
+                    "control1": 0.18985000000000002,
+                    "control2": 0.6562
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_1_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_1_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "2": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 46496119913.8414,
+                    "c_peak": 36805786498.1709,
+                    "perc_quality": 79.1588342562198,
+                    "file": "images/UVVIS/Batch_2_Week_2_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_2_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 127.5,
+                    "PolyDis": 0.07802
+                },
+                "ELISA": {
+                    "positive": 0.12176666666666668,
+                    "negative": 0.08895,
+                    "control1": 0.0667,
+                    "control2": 0.057999999999999996
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_2_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_2_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 41794395153.6941,
+                    "c_peak": 32840039906.8839,
+                    "perc_quality": 78.57522470685,
+                    "file": "images/UVVIS/Batch_2_Week_2_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_2_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 128.4,
+                    "PolyDis": 0.08973
+                },
+                "ELISA": {
+                    "positive": 0.1079,
+                    "negative": 0.1258,
+                    "control1": 0.0667,
+                    "control2": 0.057999999999999996
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_2_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_2_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 34287977520.6942,
+                    "c_peak": 24684070502.1616,
+                    "perc_quality": 71.9904534680233,
+                    "file": "images/UVVIS/Batch_2_Week_2_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_2_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 144.7,
+                    "PolyDis": 0.1316
+                },
+                "ELISA": {
+                    "positive": 0.1109,
+                    "negative": 0.1747,
+                    "control1": 0.0667,
+                    "control2": 0.057999999999999996
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_2_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_2_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 40185617692.9205,
+                    "c_peak": 30653475224.4762,
+                    "perc_quality": 76.2797164366505,
+                    "file": "images/UVVIS/Batch_2_Week_2_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_2_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 125.1,
+                    "PolyDis": 0.0692
+                },
+                "ELISA": {
+                    "positive": 0.13663333333333333,
+                    "negative": 0.12946666666666665,
+                    "control1": 0.0667,
+                    "control2": 0.057999999999999996
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_2_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_2_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 35095997802.9111,
+                    "c_peak": 27452610575.3242,
+                    "perc_quality": 78.2214847672663,
+                    "file": "images/UVVIS/Batch_2_Week_2_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_2_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 131.2,
+                    "PolyDis": 0.102
+                },
+                "ELISA": {
+                    "positive": 0.11695,
+                    "negative": 0.13795000000000002,
+                    "control1": 0.0667,
+                    "control2": 0.057999999999999996
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_2_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_2_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 36626242955.3569,
+                    "c_peak": 33505154639.1753,
+                    "perc_quality": 91.478546352718,
+                    "file": "images/UVVIS/Batch_2_Week_2_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_2_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 97.86,
+                    "PolyDis": 0.02108
+                },
+                "ELISA": {
+                    "positive": 0.0964,
+                    "negative": 0.10665,
+                    "control1": 0.0667,
+                    "control2": 0.057999999999999996
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_2_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_2_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "3": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 65159799629.1278,
+                    "c_peak": 50656800798.1377,
+                    "perc_quality": 77.742413399769,
+                    "file": "images/UVVIS/Batch_2_Week_3_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_3_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 127.4,
+                    "PolyDis": 0.0792
+                },
+                "ELISA": {
+                    "positive": 0.10516666666666667,
+                    "negative": 0.1658,
+                    "control1": 0.0942,
+                    "control2": 0.06215
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_3_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_3_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 50516247789.8602,
+                    "c_peak": 40513801130.6951,
+                    "perc_quality": 80.1995454991554,
+                    "file": "images/UVVIS/Batch_2_Week_3_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_3_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 127.7,
+                    "PolyDis": 0.07811
+                },
+                "ELISA": {
+                    "positive": 0.1018,
+                    "negative": 0.17965,
+                    "control1": 0.0942,
+                    "control2": 0.06215
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_3_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_3_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 36153233329.4748,
+                    "c_peak": 26995344196.874,
+                    "perc_quality": 74.6692389885508,
+                    "file": "images/UVVIS/Batch_2_Week_3_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_3_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 149.4,
+                    "PolyDis": 0.1433
+                },
+                "ELISA": {
+                    "positive": 0.14185,
+                    "negative": 0.23515000000000003,
+                    "control1": 0.0942,
+                    "control2": 0.06215
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_3_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_3_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 62513760176.8566,
+                    "c_peak": 47430994346.5248,
+                    "perc_quality": 75.8728865650356,
+                    "file": "images/UVVIS/Batch_2_Week_3_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_3_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 124.6,
+                    "PolyDis": 0.066
+                },
+                "ELISA": {
+                    "positive": 0.12245,
+                    "negative": 0.1153,
+                    "control1": 0.0942,
+                    "control2": 0.06215
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_3_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_3_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 60780829037.8884,
+                    "c_peak": 45061523112.7369,
+                    "perc_quality": 74.1377237297098,
+                    "file": "images/UVVIS/Batch_2_Week_3_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_3_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.0,
+                    "PolyDis": 0.07338
+                },
+                "ELISA": {
+                    "positive": 0.09043333333333332,
+                    "negative": 0.11623333333333334,
+                    "control1": 0.0942,
+                    "control2": 0.06215
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_3_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_3_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 46965044043.9146,
+                    "c_peak": 41045892916.5281,
+                    "perc_quality": 87.3966877964561,
+                    "file": "images/UVVIS/Batch_2_Week_3_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_3_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 97.2,
+                    "PolyDis": 0.02811
+                },
+                "ELISA": {
+                    "positive": 0.06876666666666667,
+                    "negative": 0.08423333333333334,
+                    "control1": 0.0942,
+                    "control2": 0.06215
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_3_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_3_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "4": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 47168410946.4051,
+                    "c_peak": 38460259394.7456,
+                    "perc_quality": 81.5381706168688,
+                    "file": "images/UVVIS/Batch_2_Week_4_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_4_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 127.7,
+                    "PolyDis": 0.06093
+                },
+                "ELISA": {
+                    "positive": 0.0937,
+                    "negative": 0.08850000000000001,
+                    "control1": 0.1042,
+                    "control2": 0.05279999999999999
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_4_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_4_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 54451261169.859,
+                    "c_peak": 42475889590.9544,
+                    "perc_quality": 78.0071731643684,
+                    "file": "images/UVVIS/Batch_2_Week_4_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_4_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 128.1,
+                    "PolyDis": 0.07893
+                },
+                "ELISA": {
+                    "positive": 0.11093333333333333,
+                    "negative": 0.08353333333333333,
+                    "control1": 0.1042,
+                    "control2": 0.05279999999999999
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_4_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_4_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 55805603030.53,
+                    "c_peak": 38518456933.8211,
+                    "perc_quality": 69.0225619688197,
+                    "file": "images/UVVIS/Batch_2_Week_4_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_4_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 143.9,
+                    "PolyDis": 0.1472
+                },
+                "ELISA": {
+                    "positive": 0.11959999999999998,
+                    "negative": 0.09066666666666667,
+                    "control1": 0.1042,
+                    "control2": 0.05279999999999999
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_4_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_4_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 56134939387.1302,
+                    "c_peak": 41544728965.7466,
+                    "perc_quality": 74.0086823274835,
+                    "file": "images/UVVIS/Batch_2_Week_4_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_4_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 124.3,
+                    "PolyDis": 0.0656
+                },
+                "ELISA": {
+                    "positive": 0.10423333333333334,
+                    "negative": 0.09846666666666666,
+                    "control1": 0.1042,
+                    "control2": 0.05279999999999999
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_4_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_4_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 38558228529.0173,
+                    "c_peak": 30337545726.6378,
+                    "perc_quality": 78.6798223984982,
+                    "file": "images/UVVIS/Batch_2_Week_4_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_4_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.8,
+                    "PolyDis": 0.06522
+                },
+                "ELISA": {
+                    "positive": 0.09935,
+                    "negative": 0.14915,
+                    "control1": 0.1042,
+                    "control2": 0.05279999999999999
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_4_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_4_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 39354446267.7861,
+                    "c_peak": 35309278350.5155,
+                    "perc_quality": 89.7211921373625,
+                    "file": "images/UVVIS/Batch_2_Week_4_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_4_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 96.43,
+                    "PolyDis": 0.02175
+                },
+                "ELISA": {
+                    "positive": 0.0974,
+                    "negative": 0.1015,
+                    "control1": 0.1042,
+                    "control2": 0.05279999999999999
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_4_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_4_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "5": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 38291821476.07908,
+                    "c_peak": 37063518456.9338,
+                    "perc_quality": 96.79225753229682,
+                    "file": "images/UVVIS/Batch_2_Week_5_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_5_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 126.1,
+                    "PolyDis": 0.07875
+                },
+                "ELISA": {
+                    "positive": 0.0697,
+                    "negative": 0.0833,
+                    "control1": 0.0727,
+                    "control2": 0.05365
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_5_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_5_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 36578805809.57503,
+                    "c_peak": 35425673428.6664,
+                    "perc_quality": 96.84753956454537,
+                    "file": "images/UVVIS/Batch_2_Week_5_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_5_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 125.6,
+                    "PolyDis": 0.08065
+                },
+                "ELISA": {
+                    "positive": 0.0767,
+                    "negative": 0.0824,
+                    "control1": 0.0727,
+                    "control2": 0.05365
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_5_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_5_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 33245764372.776894,
+                    "c_peak": 29431326903.8909,
+                    "perc_quality": 88.52654604022453,
+                    "file": "images/UVVIS/Batch_2_Week_5_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_5_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 139.6,
+                    "PolyDis": 0.1378
+                },
+                "ELISA": {
+                    "positive": 0.08296666666666667,
+                    "negative": 0.07373333333333333,
+                    "control1": 0.0727,
+                    "control2": 0.05365
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_5_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_5_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 38607486729.132515,
+                    "c_peak": 35783172597.273,
+                    "perc_quality": 92.6845428927433,
+                    "file": "images/UVVIS/Batch_2_Week_5_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_5_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 124.2,
+                    "PolyDis": 0.06065
+                },
+                "ELISA": {
+                    "positive": 0.07433333333333333,
+                    "negative": 0.0718,
+                    "control1": 0.0727,
+                    "control2": 0.05365
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_5_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_5_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 30818019190.11221,
+                    "c_peak": 30237778516.7941,
+                    "perc_quality": 98.11720321887438,
+                    "file": "images/UVVIS/Batch_2_Week_5_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_5_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 128.2,
+                    "PolyDis": 0.06933
+                },
+                "ELISA": {
+                    "positive": 0.0801,
+                    "negative": 0.06793333333333335,
+                    "control1": 0.0727,
+                    "control2": 0.05365
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_5_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_5_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 33530988987.16072,
+                    "c_peak": 34968407050.2162,
+                    "perc_quality": 104.28683467584531,
+                    "file": "images/UVVIS/Batch_2_Week_5_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_5_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 96.42,
+                    "PolyDis": 0.01329
+                },
+                "ELISA": {
+                    "positive": 0.06426666666666667,
+                    "negative": 0.06733333333333334,
+                    "control1": 0.0727,
+                    "control2": 0.05365
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_5_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_5_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "6": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 34435868246.24392,
+                    "c_peak": 34012304622.5474,
+                    "perc_quality": 98.76999290197158,
+                    "file": "images/UVVIS/Batch_2_Week_6_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_6_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 126.7,
+                    "PolyDis": 0.06509
+                },
+                "ELISA": {
+                    "positive": 0.0634,
+                    "negative": 0.07213333333333334,
+                    "control1": 0.06555,
+                    "control2": 0.04953333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_6_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_6_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 34838685464.803535,
+                    "c_peak": 34827070169.6043,
+                    "perc_quality": 99.96665977764584,
+                    "file": "images/UVVIS/Batch_2_Week_6_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_6_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 126.4,
+                    "PolyDis": 0.05547
+                },
+                "ELISA": {
+                    "positive": 0.06703333333333333,
+                    "negative": 0.06426666666666667,
+                    "control1": 0.06555,
+                    "control2": 0.04953333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_6_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_6_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 30986068195.370525,
+                    "c_peak": 28816095776.5215,
+                    "perc_quality": 92.9969417056494,
+                    "file": "images/UVVIS/Batch_2_Week_6_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_6_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 141.7,
+                    "PolyDis": 0.1509
+                },
+                "ELISA": {
+                    "positive": 0.07675,
+                    "negative": 0.0614,
+                    "control1": 0.06555,
+                    "control2": 0.04953333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_6_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_6_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 35982085892.64046,
+                    "c_peak": 34735616893.9142,
+                    "perc_quality": 96.53586231091398,
+                    "file": "images/UVVIS/Batch_2_Week_6_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_6_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 124.3,
+                    "PolyDis": 0.08527
+                },
+                "ELISA": {
+                    "positive": 0.07335,
+                    "negative": 0.0651,
+                    "control1": 0.06555,
+                    "control2": 0.04953333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_6_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_6_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 34765711331.00649,
+                    "c_peak": 31950448952.4443,
+                    "perc_quality": 91.9021867501634,
+                    "file": "images/UVVIS/Batch_2_Week_6_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_6_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 127.8,
+                    "PolyDis": 0.07384
+                },
+                "ELISA": {
+                    "positive": 0.06623333333333332,
+                    "negative": 0.06493333333333333,
+                    "control1": 0.06555,
+                    "control2": 0.04953333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_6_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_6_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 32415944222.742073,
+                    "c_peak": 34552710342.5341,
+                    "perc_quality": 106.59171334053856,
+                    "file": "images/UVVIS/Batch_2_Week_6_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_2_Week_6_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 102.8,
+                    "PolyDis": 0.1084
+                },
+                "ELISA": {
+                    "positive": 0.0642,
+                    "negative": 0.061066666666666665,
+                    "control1": 0.06555,
+                    "control2": 0.04953333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_2_Week_6_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_2_Week_6_calix_MDA.png"
+                    }
+                }
+            }
+        }
+    },
+    "3": {
+        "1": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 56173070681.3472,
+                    "c_peak": 40962753574.991684,
+                    "perc_quality": 72.92240405969788,
+                    "file": "images/UVVIS/Batch_3_Week_1_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_1_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 131.3,
+                    "PolyDis": 0.08095
+                },
+                "ELISA": {
+                    "positive": 0.1437,
+                    "negative": 0.18639999999999998,
+                    "control1": 0.2715666666666667,
+                    "control2": 0.06063333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_1_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_1_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 62171032472.88253,
+                    "c_peak": 42226471566.3452,
+                    "perc_quality": 67.91984930403616,
+                    "file": "images/UVVIS/Batch_3_Week_1_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_1_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 135.2,
+                    "PolyDis": 0.09811
+                },
+                "ELISA": {
+                    "positive": 0.3195,
+                    "negative": 0.14015,
+                    "control1": 0.2715666666666667,
+                    "control2": 0.06063333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_1_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_1_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 56678991245.69038,
+                    "c_peak": 43756235450.61523,
+                    "perc_quality": 77.20009564203785,
+                    "file": "images/UVVIS/Batch_3_Week_1_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_1_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 126.8,
+                    "PolyDis": 0.04687
+                },
+                "ELISA": {
+                    "positive": 0.18630000000000002,
+                    "negative": 0.48175,
+                    "control1": 0.2715666666666667,
+                    "control2": 0.06063333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_1_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_1_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 66821461563.428444,
+                    "c_peak": 48079481210.50881,
+                    "perc_quality": 71.95215442103236,
+                    "file": "images/UVVIS/Batch_3_Week_1_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_1_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 127.8,
+                    "PolyDis": 0.05537
+                },
+                "ELISA": {
+                    "positive": 0.1579,
+                    "negative": 0.22749999999999998,
+                    "control1": 0.2715666666666667,
+                    "control2": 0.06063333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_1_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_1_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 47441912193.61619,
+                    "c_peak": 37811772530.76156,
+                    "perc_quality": 79.70119833375841,
+                    "file": "images/UVVIS/Batch_3_Week_1_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_1_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 124.4,
+                    "PolyDis": 0.03937
+                },
+                "ELISA": {
+                    "positive": 0.58855,
+                    "negative": 0.1866,
+                    "control1": 0.2715666666666667,
+                    "control2": 0.06063333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_1_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_1_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 47640739656.319,
+                    "c_peak": 42076820751.57964,
+                    "perc_quality": 88.32109042622437,
+                    "file": "images/UVVIS/Batch_3_Week_1_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_1_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 94.41,
+                    "PolyDis": 0.01075
+                },
+                "ELISA": {
+                    "positive": 0.1629,
+                    "negative": 0.1198,
+                    "control1": 0.2715666666666667,
+                    "control2": 0.06063333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_1_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_1_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "2": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 63029894480.72214,
+                    "c_peak": 47605586963.75124,
+                    "perc_quality": 75.52858426299848,
+                    "file": "images/UVVIS/Batch_3_Week_2_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_2_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 131.2,
+                    "PolyDis": 0.09067
+                },
+                "ELISA": {
+                    "positive": 0.186,
+                    "negative": 0.2019,
+                    "control1": 0.2294,
+                    "control2": 0.05513333333333333
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_2_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_2_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 55006888599.877884,
+                    "c_peak": 47605586963.75124,
+                    "perc_quality": 86.54477316475037,
+                    "file": "images/UVVIS/Batch_3_Week_2_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_2_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 135.6,
+                    "PolyDis": 0.0695
+                },
+                "ELISA": {
+                    "positive": 0.1945,
+                    "negative": 0.1955,
+                    "control1": 0.2294,
+                    "control2": 0.05513333333333333
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_2_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_2_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 55083832104.28002,
+                    "c_peak": 47605586963.75124,
+                    "perc_quality": 86.42388364271461,
+                    "file": "images/UVVIS/Batch_3_Week_2_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_2_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 127.7,
+                    "PolyDis": 0.038
+                },
+                "ELISA": {
+                    "positive": 0.16720000000000002,
+                    "negative": 0.15444999999999998,
+                    "control1": 0.2294,
+                    "control2": 0.05513333333333333
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_2_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_2_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 65584918165.24925,
+                    "c_peak": 47605586963.75124,
+                    "perc_quality": 72.58618032243804,
+                    "file": "images/UVVIS/Batch_3_Week_2_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_2_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.2,
+                    "PolyDis": 0.06022
+                },
+                "ELISA": {
+                    "positive": 0.1559,
+                    "negative": 0.18865,
+                    "control1": 0.2294,
+                    "control2": 0.05513333333333333
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_2_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_2_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 45896459917.88154,
+                    "c_peak": 47605586963.75124,
+                    "perc_quality": 103.72387554274924,
+                    "file": "images/UVVIS/Batch_3_Week_2_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_2_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 125.1,
+                    "PolyDis": 0.03761
+                },
+                "ELISA": {
+                    "positive": 0.15844999999999998,
+                    "negative": 0.1232,
+                    "control1": 0.2294,
+                    "control2": 0.05513333333333333
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_2_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_2_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 54791265209.96044,
+                    "c_peak": 47605586963.75124,
+                    "perc_quality": 86.8853580608631,
+                    "file": "images/UVVIS/Batch_3_Week_2_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_2_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 94.23,
+                    "PolyDis": 0.02495
+                },
+                "ELISA": {
+                    "positive": 0.14024999999999999,
+                    "negative": 0.1142,
+                    "control1": 0.2294,
+                    "control2": 0.05513333333333333
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_2_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_2_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "3": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 37571671024.26494,
+                    "c_peak": 36373461922.1816,
+                    "perc_quality": 96.81087087846187,
+                    "file": "images/UVVIS/Batch_3_Week_3_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_3_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.4,
+                    "PolyDis": 0.08723
+                },
+                "ELISA": {
+                    "positive": 0.0816,
+                    "negative": 0.07476666666666666,
+                    "control1": 0.0634,
+                    "control2": 0.059533333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_3_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_3_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 38296825416.6823,
+                    "c_peak": 35533754572.6638,
+                    "perc_quality": 92.78511778990723,
+                    "file": "images/UVVIS/Batch_3_Week_3_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_3_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 133.9,
+                    "PolyDis": 0.09728
+                },
+                "ELISA": {
+                    "positive": 0.07830000000000001,
+                    "negative": 0.0826,
+                    "control1": 0.0634,
+                    "control2": 0.059533333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_3_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_3_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 37515793687.52893,
+                    "c_peak": 38086132357.8317,
+                    "perc_quality": 101.5202628393075,
+                    "file": "images/UVVIS/Batch_3_Week_3_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_3_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 127.1,
+                    "PolyDis": 0.05642
+                },
+                "ELISA": {
+                    "positive": 0.06353333333333333,
+                    "negative": 0.06763333333333334,
+                    "control1": 0.0634,
+                    "control2": 0.059533333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_3_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_3_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 35057607866.19463,
+                    "c_peak": 33613235783.1726,
+                    "perc_quality": 95.88000388236753,
+                    "file": "images/UVVIS/Batch_3_Week_3_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_3_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 128.5,
+                    "PolyDis": 0.07164
+                },
+                "ELISA": {
+                    "positive": 0.06406666666666667,
+                    "negative": 0.07213333333333334,
+                    "control1": 0.0634,
+                    "control2": 0.059533333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_3_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_3_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 30969805388.410034,
+                    "c_peak": 31160625207.8484,
+                    "perc_quality": 100.61614794489402,
+                    "file": "images/UVVIS/Batch_3_Week_3_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_3_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 121.9,
+                    "PolyDis": 0.04345
+                },
+                "ELISA": {
+                    "positive": 0.06420000000000001,
+                    "negative": 0.06699999999999999,
+                    "control1": 0.0634,
+                    "control2": 0.059533333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_3_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_3_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 35171447514.91798,
+                    "c_peak": 37221483205.853,
+                    "perc_quality": 105.82869297621458,
+                    "file": "images/UVVIS/Batch_3_Week_3_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_3_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 95.63,
+                    "PolyDis": 0.01658
+                },
+                "ELISA": {
+                    "positive": 0.0701,
+                    "negative": 0.06210000000000001,
+                    "control1": 0.0634,
+                    "control2": 0.059533333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_3_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_3_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "4": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 37911104995.18369,
+                    "c_peak": 36872297971.4001,
+                    "perc_quality": 97.25988724434288,
+                    "file": "images/UVVIS/Batch_3_Week_4_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_4_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.1,
+                    "PolyDis": 0.09312
+                },
+                "ELISA": {
+                    "positive": 0.07365,
+                    "negative": 0.08660000000000001,
+                    "control1": 0.061450000000000005,
+                    "control2": 0.054933333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_4_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_4_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 36348624541.82669,
+                    "c_peak": 34627535749.9169,
+                    "perc_quality": 95.26505111650286,
+                    "file": "images/UVVIS/Batch_3_Week_4_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_4_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 135.4,
+                    "PolyDis": 0.09903
+                },
+                "ELISA": {
+                    "positive": 0.0771,
+                    "negative": 0.08035,
+                    "control1": 0.061450000000000005,
+                    "control2": 0.054933333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_4_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_4_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 36711410235.5605,
+                    "c_peak": 38202527435.9827,
+                    "perc_quality": 104.06172683330435,
+                    "file": "images/UVVIS/Batch_3_Week_4_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_4_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 125.2,
+                    "PolyDis": 0.03222
+                },
+                "ELISA": {
+                    "positive": 0.07085,
+                    "negative": 0.07495,
+                    "control1": 0.061450000000000005,
+                    "control2": 0.054933333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_4_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_4_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 35121825103.93601,
+                    "c_peak": 34477884935.1513,
+                    "perc_quality": 98.16655265812895,
+                    "file": "images/UVVIS/Batch_3_Week_4_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_4_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.2,
+                    "PolyDis": 0.06492
+                },
+                "ELISA": {
+                    "positive": 0.08473333333333333,
+                    "negative": 0.0673,
+                    "control1": 0.061450000000000005,
+                    "control2": 0.054933333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_4_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_4_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 32388005554.37407,
+                    "c_peak": 33272364482.8733,
+                    "perc_quality": 102.73051369901285,
+                    "file": "images/UVVIS/Batch_3_Week_4_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_4_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 122.2,
+                    "PolyDis": 0.0717
+                },
+                "ELISA": {
+                    "positive": 0.06973333333333333,
+                    "negative": 0.0709,
+                    "control1": 0.061450000000000005,
+                    "control2": 0.054933333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_4_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_4_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 33908369507.653946,
+                    "c_peak": 36622879946.7908,
+                    "perc_quality": 108.00542897978072,
+                    "file": "images/UVVIS/Batch_3_Week_4_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_4_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 100.5,
+                    "PolyDis": 0.03102
+                },
+                "ELISA": {
+                    "positive": 0.0682,
+                    "negative": 0.0666,
+                    "control1": 0.061450000000000005,
+                    "control2": 0.054933333333333334
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_4_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_4_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "5": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 41240393476.52942,
+                    "c_peak": 36240438975.72331,
+                    "perc_quality": 87.87607469445784,
+                    "file": "images/UVVIS/Batch_3_Week_5_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_5_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.2,
+                    "PolyDis": 0.07792
+                },
+                "ELISA": {
+                    "positive": 0.07323333333333333,
+                    "negative": 0.06696666666666667,
+                    "control1": 0.06996666666666668,
+                    "control2": 0.05073333333333333
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_5_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_5_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 35711456105.01604,
+                    "c_peak": 33754572663.7845,
+                    "perc_quality": 94.52029221245708,
+                    "file": "images/UVVIS/Batch_3_Week_5_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_5_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 132.8,
+                    "PolyDis": 0.1002
+                },
+                "ELISA": {
+                    "positive": 0.06630000000000001,
+                    "negative": 0.0705,
+                    "control1": 0.06996666666666668,
+                    "control2": 0.05073333333333333
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_5_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_5_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 37231403063.245636,
+                    "c_peak": 38427003658.131035,
+                    "perc_quality": 103.21126924186663,
+                    "file": "images/UVVIS/Batch_3_Week_5_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_5_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 126.7,
+                    "PolyDis": 0.04149
+                },
+                "ELISA": {
+                    "positive": 0.06325,
+                    "negative": 0.06555,
+                    "control1": 0.06996666666666668,
+                    "control2": 0.05073333333333333
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_5_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_5_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 38747180070.97256,
+                    "c_peak": 36963751247.090126,
+                    "perc_quality": 95.3972680834689,
+                    "file": "images/UVVIS/Batch_3_Week_5_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_5_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 128.9,
+                    "PolyDis": 0.06615
+                },
+                "ELISA": {
+                    "positive": 0.06960000000000001,
+                    "negative": 0.06523333333333332,
+                    "control1": 0.06996666666666668,
+                    "control2": 0.05073333333333333
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_5_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_5_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 33066873496.211594,
+                    "c_peak": 33754572663.7845,
+                    "perc_quality": 102.0797223772961,
+                    "file": "images/UVVIS/Batch_3_Week_5_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_5_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 121.4,
+                    "PolyDis": 0.02878
+                },
+                "ELISA": {
+                    "positive": 0.06996666666666666,
+                    "negative": 0.06513333333333333,
+                    "control1": 0.06996666666666668,
+                    "control2": 0.05073333333333333
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_5_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_5_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 33810375670.84078,
+                    "c_peak": 36581310276.022606,
+                    "perc_quality": 108.1955155782891,
+                    "file": "images/UVVIS/Batch_3_Week_5_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_5_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 95.72,
+                    "PolyDis": 0.02428
+                },
+                "ELISA": {
+                    "positive": 0.06353333333333333,
+                    "negative": 0.08524999999999999,
+                    "control1": 0.06996666666666668,
+                    "control2": 0.05073333333333333
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_5_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_5_calix_MDA.png"
+                    }
+                }
+            }
+        },
+        "6": {
+            "buffer 1": {
+                "UVVIS": {
+                    "c_avg": 34345797315.38587,
+                    "c_peak": 32840039906.883934,
+                    "perc_quality": 95.61589036738593,
+                    "file": "images/UVVIS/Batch_3_Week_6_buffer 1.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_6_buffer 1.png"
+                },
+                "DLS": {
+                    "Z-AVG": 130.5,
+                    "PolyDis": 0.08461
+                },
+                "ELISA": {
+                    "positive": 0.08135,
+                    "negative": 1.2905,
+                    "control1": 0.06915,
+                    "control2": 0.05736666666666667
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_6_buffer 1_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_6_buffer 1_MDA.png"
+                    }
+                }
+            },
+            "buffer 2": {
+                "UVVIS": {
+                    "c_avg": 37057933122.33385,
+                    "c_peak": 35076488194.2135,
+                    "perc_quality": 94.65311537591884,
+                    "file": "images/UVVIS/Batch_3_Week_6_buffer 2.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_6_buffer 2.png"
+                },
+                "DLS": {
+                    "Z-AVG": 133.3,
+                    "PolyDis": 0.07003
+                },
+                "ELISA": {
+                    "positive": 0.10195,
+                    "negative": 0.07264999999999999,
+                    "control1": 0.06915,
+                    "control2": 0.05736666666666667
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_6_buffer 2_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_6_buffer 2_MDA.png"
+                    }
+                }
+            },
+            "buffer 3": {
+                "UVVIS": {
+                    "c_avg": 40591549178.31124,
+                    "c_peak": 42051878949.11873,
+                    "perc_quality": 103.59762019525918,
+                    "file": "images/UVVIS/Batch_3_Week_6_buffer 3.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_6_buffer 3.png"
+                },
+                "DLS": {
+                    "Z-AVG": 126.2,
+                    "PolyDis": 0.02407
+                },
+                "ELISA": {
+                    "positive": 0.07155,
+                    "negative": 0.0655,
+                    "control1": 0.06915,
+                    "control2": 0.05736666666666667
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_6_buffer 3_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_6_buffer 3_MDA.png"
+                    }
+                }
+            },
+            "buffer 4": {
+                "UVVIS": {
+                    "c_avg": 30089945832.342957,
+                    "c_peak": 31992018623.2125,
+                    "perc_quality": 106.32129017934307,
+                    "file": "images/UVVIS/Batch_3_Week_6_buffer 4.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_6_buffer 4.png"
+                },
+                "DLS": {
+                    "Z-AVG": 129.5,
+                    "PolyDis": 0.04612
+                },
+                "ELISA": {
+                    "positive": 0.06955,
+                    "negative": 0.06665,
+                    "control1": 0.06915,
+                    "control2": 0.05736666666666667
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_6_buffer 4_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_6_buffer 4_MDA.png"
+                    }
+                }
+            },
+            "buffer 5": {
+                "UVVIS": {
+                    "c_avg": 35076372643.45672,
+                    "c_peak": 34245094778.84935,
+                    "perc_quality": 97.63009170572705,
+                    "file": "images/UVVIS/Batch_3_Week_6_buffer 5.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_6_buffer 5.png"
+                },
+                "DLS": {
+                    "Z-AVG": 119.8,
+                    "PolyDis": 0.03559
+                },
+                "ELISA": {
+                    "positive": 0.07923333333333334,
+                    "negative": 0.14930000000000002,
+                    "control1": 0.06915,
+                    "control2": 0.05736666666666667
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_6_buffer 5_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_6_buffer 5_MDA.png"
+                    }
+                }
+            },
+            "calix": {
+                "UVVIS": {
+                    "c_avg": 34616427103.010284,
+                    "c_peak": 36872297971.40007,
+                    "perc_quality": 106.5167640255791,
+                    "file": "images/UVVIS/Batch_3_Week_6_calix.png"
+                },
+                "FTIR": {
+                    "file": "images/FTIR/Batch_3_Week_6_calix.png"
+                },
+                "DLS": {
+                    "Z-AVG": 95.17,
+                    "PolyDis": 0.03599
+                },
+                "ELISA": {
+                    "positive": 0.07723333333333333,
+                    "negative": 0.09005,
+                    "control1": 0.06915,
+                    "control2": 0.05736666666666667
+                },
+                "Cellules": {
+                    "SK": {
+                        "file": "images/Cellules/Batch_3_Week_6_calix_SK.png"
+                    },
+                    "MDA": {
+                        "file": "images/Cellules/Batch_3_Week_6_calix_MDA.png"
+                    }
+                }
+            }
+        }
+    }
+}
