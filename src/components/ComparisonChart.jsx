@@ -18,52 +18,40 @@ import {
   Legend, 
   ResponsiveContainer 
 } from 'recharts';
+
+// Format numbers in scientific notation when needed
+const formatNumber = (value) => {
+  if (typeof value !== 'number') return value;
+  
+  const absVal = Math.abs(value);
+  if (absVal < 0.001 || absVal > 10000) {
+    return value.toExponential(2);
+  }
+  
+  // For regular numbers, limit to 3 significant digits
+  return Number(value.toPrecision(3));
+};
 import { useData } from '../context/DataContext';
 
 const ComparisonChart = ({ testType }) => {
   const {
     selectedBatch,
     selectedWeek,
-    compareBuffersForWeek
+    compareBuffersForWeek,
+    getTestParameters
   } = useData();
 
   const [selectedValue, setSelectedValue] = useState('');
   const [chartData, setChartData] = useState([]);
   
-  // Déterminer quelles propriétés sont disponibles pour chaque type de test
-  const getAvailableProperties = () => {
-    switch(testType) {
-      case 'UVVIS':
-        return [
-          { key: 'c_avg', label: 'Concentration moyenne' },
-          { key: 'c_peak', label: 'Concentration au pic' },
-          { key: 'perc_quality', label: 'Qualité (%)' }
-        ];
-      case 'DLS':
-        return [
-          { key: 'Z-AVG', label: 'Z-Average' },
-          { key: 'PolyDis', label: 'Polydispersité' }
-        ];
-      case 'ELISA':
-        return [
-          { key: 'positive', label: 'Positif' },
-          { key: 'negative', label: 'Négatif' },
-          { key: 'control1', label: 'Contrôle 1' },
-          { key: 'control2', label: 'Contrôle 2' }
-        ];
-      default:
-        return [];
-    }
-  };
-
-  const properties = getAvailableProperties();
-
-  // Mettre à jour la propriété sélectionnée quand le type de test change
+  // Utiliser la fonction centrale pour obtenir les paramètres du test
+  const properties = getTestParameters(testType);
+  // Mettre à jour la propriété sélectionnée quand le type de test change ou au chargement initial
   useEffect(() => {
-    if (properties.length > 0 && !selectedValue) {
+    if (properties.length > 0 && (!selectedValue || !properties.some(p => p.key === selectedValue))) {
       setSelectedValue(properties[0].key);
     }
-  }, [testType, properties, selectedValue]);
+  }, [testType, properties]);
 
   // Mettre à jour les données du graphique
   useEffect(() => {
@@ -73,21 +61,10 @@ const ComparisonChart = ({ testType }) => {
     }
   }, [selectedBatch, selectedWeek, testType, selectedValue, compareBuffersForWeek]);
 
-  const cardBg = 'white';
-  const headingColor = 'teal.700';
-
-  // Obtenir les unités pour la valeur sélectionnée
+  // Obtenir l'unité pour la valeur sélectionnée
   const getUnit = () => {
-    switch(testType) {
-      case 'UVVIS':
-        return selectedValue === 'perc_quality' ? '%' : 'particules/mL';
-      case 'DLS':
-        return selectedValue === 'Z-AVG' ? 'nm' : '';
-      case 'ELISA':
-        return 'DO';
-      default:
-        return '';
-    }
+    const parameter = properties.find(p => p.key === selectedValue);
+    return parameter ? parameter.unit : '';
   };
 
   const unit = getUnit();
@@ -103,14 +80,14 @@ const ComparisonChart = ({ testType }) => {
       {/* Sélection de la propriété à comparer */}
       <Box>
         <FormControl>
-          <FormLabel>Sélectionner la propriété à comparer</FormLabel>
+          <FormLabel>Sélectionner la propriété à comparer</FormLabel>          
           <Select 
             value={selectedValue} 
             onChange={(e) => setSelectedValue(e.target.value)}
           >
             {properties.map(prop => (
               <option key={prop.key} value={prop.key}>
-                {prop.label}
+                {prop.label} {prop.unit ? `(${prop.unit})` : ''}
               </option>
             ))}
           </Select>
@@ -133,24 +110,26 @@ const ComparisonChart = ({ testType }) => {
               bottom: 5,
             }}
           >
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="buffer" />
-            <YAxis 
+            <CartesianGrid strokeDasharray="3 3" />            
+            <XAxis dataKey="buffer" />            <YAxis 
+              tickFormatter={formatNumber}
               label={{ 
                 value: unit, 
                 angle: -90, 
                 position: 'insideLeft',
                 style: { textAnchor: 'middle' }
-              }} 
-            />
-            <Tooltip 
-              formatter={(value) => [
-                typeof value === 'number' && value < 0.001 
-                  ? value.toExponential(2) 
-                  : value.toLocaleString(), 
-                properties.find(p => p.key === selectedValue)?.label || selectedValue
-              ]}
-            />
+              }}
+              allowDataOverflow={true}
+              domain={['auto', 'auto']} 
+            /><Tooltip 
+                formatter={(value) => {
+                  const parameter = properties.find(p => p.key === selectedValue);
+                  return [
+                    `${formatNumber(value)}${parameter?.unit ? ' ' + parameter.unit : ''}`,
+                    parameter?.label || selectedValue
+                  ];
+                }}
+              />
             <Legend />
             <Bar 
               dataKey="value" 

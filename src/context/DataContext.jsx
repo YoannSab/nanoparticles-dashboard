@@ -54,7 +54,7 @@ export const DataProvider = ({ children }) => {
   // Obtenir tous les tests disponibles pour un batch, une semaine et un buffer
   const getTests = (batch, week, buffer) => {
     if (!data || !data[batch] || !data[batch][week] || !data[batch][week][buffer]) return [];
-    return Object.keys(data[batch][week][buffer]).filter(test => test !== "Cellules");
+    return Object.keys(data[batch][week][buffer]);
   };
 
   // Obtenir les types de cellules disponibles
@@ -115,7 +115,6 @@ export const DataProvider = ({ children }) => {
       };
     }).filter(item => item.value !== null);
   };
-
   // Comparer les valeurs entre différents buffers pour une semaine spécifique
   const compareBuffersForWeek = (batch, week, test, valueKey) => {
     if (!data || !data[batch] || !data[batch][week]) return [];
@@ -129,6 +128,65 @@ export const DataProvider = ({ children }) => {
         value: value !== undefined ? value : null
       };
     }).filter(item => item.value !== null);
+  };
+  
+  // Calculer les statistiques de changement pour un paramètre au fil du temps
+  const calculateChangeStats = (batch, buffer, test, valueKey) => {
+    const trendData = trackValueOverWeeks(batch, buffer, test, valueKey);
+    
+    if (trendData.length < 2) {
+      return { trend: 'stable', percentage: 0, initialValue: null, currentValue: null };
+    }
+    
+    const initialValue = trendData[0].value;
+    const currentValue = trendData[trendData.length - 1].value;
+    
+    if (initialValue === 0) {
+      return { 
+        trend: currentValue > 0 ? 'increase' : currentValue < 0 ? 'decrease' : 'stable', 
+        percentage: 0,
+        initialValue,
+        currentValue
+      };
+    }
+    
+    const change = currentValue - initialValue;
+    const percentageChange = (change / Math.abs(initialValue)) * 100;
+    
+    const trend = percentageChange > 1 ? 'increase' : percentageChange < -1 ? 'decrease' : 'stable';
+    
+    return {
+      trend,
+      percentage: percentageChange,
+      initialValue,
+      currentValue
+    };
+  };
+
+  // Fonction centralisée pour obtenir les paramètres de test avec unités et labels
+  const getTestParameters = (testType) => {
+    switch(testType) {
+      case 'UVVIS':
+        return [
+          { key: 'c_avg', label: 'Concentration moyenne', unit: 'NPs/mL' },
+          { key: 'c_peak', label: 'Concentration au pic', unit: 'NPs/mL' },
+          { key: 'perc_quality', label: 'Qualité', unit: '%' }
+        ];
+      case 'DLS':
+        return [
+          { key: 'Z-AVG', label: 'Z-Average', unit: 'nm' },
+          { key: 'PolyDis', label: 'Polydispersité', unit: '' }
+        ];
+      case 'ELISA':
+        return [
+          { key: 'positive', label: 'Positif', unit: '' },
+          { key: 'negative', label: 'Négatif', unit: '' },
+          { key: 'control1', label: 'Contrôle 1', unit: '' },
+          { key: 'control2', label: 'Contrôle 2', unit: '' }
+        ];
+      default:
+        return [];
+    }
   };
 
   const value = {
@@ -153,6 +211,8 @@ export const DataProvider = ({ children }) => {
     getCellImage,
     trackValueOverWeeks,
     compareBuffersForWeek,
+    calculateChangeStats,
+    getTestParameters,
   };
 
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;

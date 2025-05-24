@@ -4,7 +4,7 @@ import { DataProvider } from './context/DataContext';
 import Header from './components/Header';
 import Dashboard from './components/Dashboard';
 import Home from './pages/Home';
-import Trends from './pages/Trends';
+import About from './pages/About';
 import './App.css';
 
 
@@ -22,7 +22,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/dashboard" element={<Dashboard />} />
-                <Route path="/trends" element={<Trends />} />
+                <Route path="/about" element={<About />} />
               </Routes>
             </Box>
             
@@ -41,7 +41,7 @@ function App() {
             >
               <Link to="/">Accueil</Link>
               <Link to="/dashboard">Dashboard</Link>
-              <Link to="/trends">Tendances</Link>
+              <Link to="/about">À propos</Link>
             </Flex>
           </Box>
         </Router>

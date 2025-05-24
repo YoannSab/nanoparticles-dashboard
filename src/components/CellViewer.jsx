@@ -57,76 +57,38 @@ const CellViewer = ({ data }) => {
               <Text fontWeight="bold">{selectedBuffer}</Text>
             </Box>
           </HStack>
-        </Box>
-
-        {/* Sélection du type de cellule */}
+        </Box>        {/* Sélection du type de cellule et affichage de l'image */}
         <Box bg={cardBg} p={5} borderRadius="lg" boxShadow="md">
           <Heading size="md" mb={4} color={headingColor}>
-            Type de cellule
+            Image cellulaire
           </Heading>
-          <ButtonGroup isAttached variant="outline" size="md">
-            {cellTypes.map(cellType => (
-              <Button
-                key={cellType}
-                onClick={() => setSelectedCellType(cellType)}
-                colorScheme={selectedCellType === cellType ? "teal" : "gray"}
-              >
-                {cellType}
-              </Button>
-            ))}
-          </ButtonGroup>
-        </Box>        {/* Affichage de l'image */}
-        <Box bg={cardBg} p={5} borderRadius="lg" boxShadow="md">
-          <Heading size="md" mb={4} color={headingColor}>
-            Image {selectedCellType}
-          </Heading>
-          <Box textAlign="center">
-            {imageFile && typeof imageFile === 'string' ? (
-              <ImageViewer 
-                src={`./${imageFile}`} 
-                alt={`Cellules ${selectedCellType} - Batch ${selectedBatch}, Semaine ${selectedWeek}, ${selectedBuffer}`} 
-                maxH="600px"
-              />
-            ) : (
-              <Text>Aucune image disponible</Text>
-            )}
-          </Box>
-        </Box>
-
-        {/* Tabs pour comparer les types de cellules */}
-        <Box bg={cardBg} p={5} borderRadius="lg" boxShadow="md">
-          <Heading size="md" mb={4} color={headingColor}>
-            Comparer les types de cellules
-          </Heading>
-          <Tabs colorScheme="teal" variant="enclosed">
-            <TabList>
+          
+          <VStack spacing={4}>
+            <ButtonGroup isAttached variant="outline" size="md">
               {cellTypes.map(cellType => (
-                <Tab key={cellType}>{cellType}</Tab>
+                <Button
+                  key={cellType}
+                  onClick={() => setSelectedCellType(cellType)}
+                  colorScheme={selectedCellType === cellType ? "teal" : "gray"}
+                >
+                  {cellType}
+                </Button>
               ))}
-            </TabList>
-            <TabPanels>
-              {cellTypes.map(cellType => {
-                const cellImage = getCellImage(selectedBatch, selectedWeek, selectedBuffer, cellType);
-                return (
-                  <TabPanel key={cellType}>                    <Box textAlign="center">
-                      {cellImage && typeof cellImage === 'string' ? (
-                        <ImageViewer 
-                          src={`./${cellImage}`} 
-                          alt={`Cellules ${cellType} - Batch ${selectedBatch}, Semaine ${selectedWeek}, ${selectedBuffer}`} 
-                          maxH="600px" 
-                          mx="auto"
-                          borderRadius="md"
-                        />
-                      ) : (
-                        <Text>Aucune image disponible pour {cellType}</Text>
-                      )}
-                    </Box>
-                  </TabPanel>
-                );
-              })}
-            </TabPanels>
-          </Tabs>
-        </Box>
+            </ButtonGroup>
+          
+            <Box textAlign="center" w="100%" mt={4}>
+              {imageFile && typeof imageFile === 'string' ? (
+                <ImageViewer 
+                  src={`./${imageFile}`} 
+                  alt={`Cellules ${selectedCellType} - Batch ${selectedBatch}, Semaine ${selectedWeek}, ${selectedBuffer}`} 
+                  maxH="600px"
+                />
+              ) : (
+                <Text>Aucune image disponible</Text>
+              )}
+            </Box>
+          </VStack>
+        </Box>        {/* Removed duplicate tabs comparison section */}
       </VStack>
     </Box>
   );

@@ -44,7 +44,8 @@ const TrendAnalyzer = () => {
     trackValueOverWeeks,
     getBatches,
     getBuffers,
-    getTests
+    getTests,
+    getTestParameters
   } = useData();
 
   const batches = getBatches();
@@ -61,38 +62,10 @@ const TrendAnalyzer = () => {
   const cardBg = 'white';
   const headingColor = 'teal.700';
 
-  // Obtenir les paramètres disponibles pour le test sélectionné
-  const getParameters = () => {
-    if (!localTest) return [];
-    
-    switch(localTest) {
-      case 'UVVIS':
-        return [
-          { key: 'c_avg', label: 'Concentration moyenne' },
-          { key: 'c_peak', label: 'Concentration au pic' },
-          { key: 'perc_quality', label: 'Qualité (%)' }
-        ];
-      case 'DLS':
-        return [
-          { key: 'Z-AVG', label: 'Z-Average' },
-          { key: 'PolyDis', label: 'Polydispersité' }
-        ];
-      case 'ELISA':
-        return [
-          { key: 'positive', label: 'Positif' },
-          { key: 'negative', label: 'Négatif' },
-          { key: 'control1', label: 'Contrôle 1' },
-          { key: 'control2', label: 'Contrôle 2' }
-        ];
-      default:
-        return [];
-    }
-  };
-
-  const parameters = getParameters();
-
+  // Utiliser la fonction centrale pour obtenir les paramètres du test
+  const parameters = localTest ? getTestParameters(localTest) : [];
   // Mettre à jour le paramètre sélectionné quand le test change
-  useState(() => {
+  useEffect(() => {
     if (parameters.length > 0 && (!selectedParameter || !parameters.some(p => p.key === selectedParameter))) {
       setSelectedParameter(parameters[0].key);
     }
@@ -118,19 +91,10 @@ const TrendAnalyzer = () => {
   };
 
   const stats = calculateStats();
-
-  // Obtenir les unités pour la valeur sélectionnée
+  // Obtenir l'unité pour la valeur sélectionnée
   const getUnit = () => {
-    switch(localTest) {
-      case 'UVVIS':
-        return selectedParameter === 'perc_quality' ? '%' : 'particules/mL';
-      case 'DLS':
-        return selectedParameter === 'Z-AVG' ? 'nm' : '';
-      case 'ELISA':
-        return 'DO';
-      default:
-        return '';
-    }
+    const parameter = parameters.find(p => p.key === selectedParameter);
+    return parameter ? parameter.unit : '';
   };
 
   const unit = getUnit();
@@ -200,15 +164,14 @@ const TrendAnalyzer = () => {
           {/* Sélection du paramètre */}
           <GridItem>
             <FormControl>
-              <FormLabel>Paramètre</FormLabel>
-              <Select 
+              <FormLabel>Paramètre</FormLabel>              <Select 
                 value={selectedParameter} 
                 onChange={(e) => setSelectedParameter(e.target.value)}
                 bg={cardBg}
               >
                 {parameters.map((param) => (
                   <option key={param.key} value={param.key}>
-                    {param.label}
+                    {param.label} {param.unit ? `(${param.unit})` : ''}
                   </option>
                 ))}
               </Select>
@@ -317,7 +280,9 @@ const TrendAnalyzer = () => {
                         angle: -90, 
                         position: 'insideLeft',
                         style: { textAnchor: 'middle' }
-                      }} 
+                      }}
+                      allowDataOverflow={true}
+                      domain={['auto', 'auto']}
                     />
                     <Tooltip 
                       formatter={(value) => [
@@ -361,7 +326,9 @@ const TrendAnalyzer = () => {
                         angle: -90, 
                         position: 'insideLeft',
                         style: { textAnchor: 'middle' }
-                      }} 
+                      }}
+                      allowDataOverflow={true}
+                      domain={['auto', 'auto']}
                     />
                     <Tooltip 
                       formatter={(value) => [
