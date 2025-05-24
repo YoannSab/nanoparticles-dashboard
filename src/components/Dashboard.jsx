@@ -167,7 +167,8 @@ const Dashboard = () => {
     p: 4,
     borderRadius: "md",
     mb: 6,
-    shadow: "sm",
+    shadow: "md",
+
   };
 
   // Render selector controls at the top of dashboard
@@ -250,15 +251,6 @@ const Dashboard = () => {
     );
   }
 
-  if (selectedTest === 'Cellules') {
-    return (
-      <Box p={6}>
-        {renderSelectors()}
-        <CellViewer data={data} />
-      </Box>
-    );
-  }
-
   // Style de carte pour chaque section
   const cardStyle = {
     bg: cardBg,
@@ -281,7 +273,7 @@ const Dashboard = () => {
         {/* Informations sur la sélection en cours */}        
         <Box {...cardStyle}>
           <Heading size="md" mb={6} color={headingColor}>
-            {selectedTest} - Test détails
+            {selectedTest}
           </Heading>
           <Grid templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }} gap={6}>
             <HStack spacing={3} align="center">
@@ -297,7 +289,8 @@ const Dashboard = () => {
               <Text fontWeight="bold" fontSize="2xl">{selectedBuffer === 'calix' ? selectedBuffer : selectedBuffer.replace("buffer", "")}</Text>
             </HStack>
           </Grid>
-        </Box>        {/* Affichage des valeurs de test - seulement si des valeurs existent */}
+        </Box>
+        {selectedTest === "Cellules" && <CellViewer data={data} />}
         {Object.entries(data).some(([key, value]) => 
           key !== 'file' && 
           (typeof value !== 'object' || value === null)
@@ -305,7 +298,8 @@ const Dashboard = () => {
           <Box {...cardStyle}>
             <Heading size="md" mb={4} color={headingColor}>
               Valeurs du test
-            </Heading>            <StatGroup>
+            </Heading>            
+            <StatGroup>
               {Object.entries(data)
                 .filter(([key, value]) => 
                   // Filter out the file key and any complex objects that aren't meant to be displayed
