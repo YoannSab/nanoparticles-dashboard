@@ -35,13 +35,10 @@ function App() {
               bg={'teal.600'}
               color="white"
               p={3}
-              justifyContent="center"
-              gap={10}
+              justifyContent="space-around"
               zIndex={10}
             >
-              <Link to="/">Accueil</Link>
-              <Link to="/dashboard">Dashboard</Link>
-              <Link to="/about">À propos</Link>
+              <Box>© <a href="https://yoannsab.github.io/paroldle" target='_blank'>2025</a> - <a href='https://www.linkedin.com/in/charline-courbon/' target='_blank'>Charline Courbon</a> - <a href='https://polymtl.ca/' target='_blank'>Polytechnique Montréal</a> - <a href='https://lp2l.polymtl.ca/' target='_blank'>Laboratoire LP2L</a></Box>
             </Flex>
           </Box>
         </Router>

@@ -55,7 +55,8 @@ const ImageViewer = ({ src, alt, maxH = "500px" }) => {
           bg="blackAlpha.600" 
           borderRadius="md" 
           p={1}
-        >          <IconButton 
+        >          
+        <IconButton 
             aria-label="Zoom" 
             icon={<Text fontSize="sm">🔍</Text>} 
             size="sm" 
@@ -79,7 +80,7 @@ const ImageViewer = ({ src, alt, maxH = "500px" }) => {
       <Modal isOpen={isOpen} onClose={onClose} size="6xl">
         <ModalOverlay />
         <ModalContent bg="transparent" boxShadow="none">
-          <ModalCloseButton color="white" />
+          <ModalCloseButton color="white" />          
           <ModalBody p={0} display="flex" justifyContent="center" alignItems="center">
             <Box 
               maxW="95vw" 
@@ -90,11 +91,19 @@ const ImageViewer = ({ src, alt, maxH = "500px" }) => {
               borderRadius="md"
               position="relative"
             >
-              <Image 
-                src={src} 
-                alt={alt} 
-                style={{ transform: `scale(${zoomLevel / 100})`, transformOrigin: 'center center' }} 
-              />
+              <Box
+                display="inline-block"
+                style={{
+                  transform: `scale(${zoomLevel / 100})`,
+                  transformOrigin: 'top left'
+                }}
+              >
+                <Image 
+                  src={src} 
+                  alt={alt} 
+                  display="block"
+                />
+              </Box>
               
               {/* Contrôles de zoom */}
               <Flex 

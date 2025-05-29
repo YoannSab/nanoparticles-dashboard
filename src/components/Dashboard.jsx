@@ -1,19 +1,19 @@
 import { useEffect, useState } from 'react';
-import { 
-  Box, 
-  Grid, 
-  VStack, 
-  Heading, 
-  Text, 
-  Image, 
-  Stat, 
-  StatLabel, 
-  StatNumber, 
-  StatGroup, 
-  Tabs, 
-  TabList, 
-  TabPanels, 
-  Tab, 
+import {
+  Box,
+  Grid,
+  VStack,
+  Heading,
+  Text,
+  Image,
+  Stat,
+  StatLabel,
+  StatNumber,
+  StatGroup,
+  Tabs,
+  TabList,
+  TabPanels,
+  Tab,
   TabPanel,
   Badge,
   HStack,
@@ -35,21 +35,21 @@ const TestValue = ({ label, value, unit = "" }) => {
   const formatValue = (val) => {
     // Handle undefined or null
     if (val === undefined || val === null) return '';
-    
+
     // If not a primitive value (object/array), convert to string representation or return placeholder
     if (typeof val === 'object') return '[Object]';
-    
+
     // Handle numbers specially
     if (typeof val === 'number') {
       const absVal = Math.abs(val);
       if (absVal < 0.001 || absVal > 10000) {
         return val.toExponential(2);
       }
-      
+
       // For regular numbers, limit to 3 significant digits
       return Number(val.toPrecision(3));
     }
-    
+
     // For string values just return as is
     return val;
   };
@@ -64,20 +64,20 @@ const TestValue = ({ label, value, unit = "" }) => {
 
 // Composant pour afficher les statistiques de changement
 const ChangeStats = ({ testType }) => {
-  const { 
-    selectedBatch, 
-    selectedBuffer, 
+  const {
+    selectedBatch,
+    selectedBuffer,
     calculateChangeStats,
     getTestParameters
   } = useData();
-  
+
   const parameters = getTestParameters(testType);
   const cardBg = 'white';
 
   // Format scientific notation for small and large numbers
   const formatValue = (val) => {
     if (val === undefined || val === null) return '';
-    
+
     if (typeof val === 'number') {
       const absVal = Math.abs(val);
       if (absVal < 0.001 || absVal > 10000) {
@@ -85,7 +85,7 @@ const ChangeStats = ({ testType }) => {
       }
       return Number(val.toPrecision(3));
     }
-    
+
     return val;
   };
 
@@ -93,18 +93,18 @@ const ChangeStats = ({ testType }) => {
     <SimpleGrid columns={{ base: 1, md: 4 }} spacing={4}>
       {parameters.map(param => {
         const stats = calculateChangeStats(selectedBatch, selectedBuffer, testType, param.key);
-        
+
         // Skip if we don't have valid stats
         if (stats.initialValue === null || stats.currentValue === null) return null;
-        
+
         return (
           <Box key={param.key} p={3} bg={cardBg} borderRadius="md" boxShadow="sm">
             <Stat>
               <StatLabel fontWeight="medium">{param.label}</StatLabel>
               <StatNumber fontSize="lg">
                 {stats.trend !== 'stable' && (
-                  <StatArrow 
-                    type={stats.trend === 'increase' ? 'increase' : 'decrease'} 
+                  <StatArrow
+                    type={stats.trend === 'increase' ? 'increase' : 'decrease'}
                   />
                 )}
                 {Math.abs(stats.percentage).toFixed(1)}%
@@ -112,15 +112,15 @@ const ChangeStats = ({ testType }) => {
               <StatHelpText fontSize="sm">
                 {formatValue(stats.initialValue)} → {formatValue(stats.currentValue)} {param.unit}
               </StatHelpText>
-              <Badge 
+              <Badge
                 colorScheme={
-                  stats.trend === 'increase' ? 'green' : 
-                  stats.trend === 'decrease' ? 'red' : 'gray'
+                  stats.trend === 'increase' ? 'green' :
+                    stats.trend === 'decrease' ? 'red' : 'gray'
                 }
                 mt={1}
               >
-                {stats.trend === 'increase' ? 'Augmentation' : 
-                 stats.trend === 'decrease' ? 'Diminution' : 'Stable'}
+                {stats.trend === 'increase' ? 'Augmentation' :
+                  stats.trend === 'decrease' ? 'Diminution' : 'Stable'}
               </Badge>
             </Stat>
           </Box>
@@ -131,12 +131,12 @@ const ChangeStats = ({ testType }) => {
 };
 
 const Dashboard = () => {
-  const { 
-    selectedBatch, 
+  const {
+    selectedBatch,
     setSelectedBatch,
-    selectedWeek, 
+    selectedWeek,
     setSelectedWeek,
-    selectedBuffer, 
+    selectedBuffer,
     setSelectedBuffer,
     selectedTest,
     setSelectedTest,
@@ -148,7 +148,7 @@ const Dashboard = () => {
   } = useData();
 
   const [data, setData] = useState(null);
-  
+
   const batches = getBatches();
   const weeks = getWeeks(selectedBatch);
   const buffers = getBuffers(selectedBatch, selectedWeek);
@@ -160,7 +160,7 @@ const Dashboard = () => {
 
   const cardBg = 'white';
   const headingColor = 'teal.700';
-  
+
   // Selector bar styles
   const selectorBar = {
     bg: "teal.50",
@@ -177,8 +177,8 @@ const Dashboard = () => {
       <Flex direction={{ base: "column", md: "row" }} gap={4} justifyContent="center" alignItems={{ base: "stretch", md: "flex-end" }}>
         <Box>
           <Text fontSize="sm" fontWeight="medium" mb={1}>Batch</Text>
-          <Select 
-            value={selectedBatch} 
+          <Select
+            value={selectedBatch}
             onChange={(e) => setSelectedBatch(e.target.value)}
             bg="white"
             size="md"
@@ -190,11 +190,11 @@ const Dashboard = () => {
             ))}
           </Select>
         </Box>
-        
+
         <Box>
           <Text fontSize="sm" fontWeight="medium" mb={1}>Semaine</Text>
-          <Select 
-            value={selectedWeek} 
+          <Select
+            value={selectedWeek}
             onChange={(e) => setSelectedWeek(e.target.value)}
             bg="white"
             size="md"
@@ -206,11 +206,11 @@ const Dashboard = () => {
             ))}
           </Select>
         </Box>
-        
+
         <Box>
           <Text fontSize="sm" fontWeight="medium" mb={1}>Buffer</Text>
-          <Select 
-            value={selectedBuffer} 
+          <Select
+            value={selectedBuffer}
             onChange={(e) => setSelectedBuffer(e.target.value)}
             bg="white"
             size="md"
@@ -222,11 +222,11 @@ const Dashboard = () => {
             ))}
           </Select>
         </Box>
-        
+
         <Box>
           <Text fontSize="sm" fontWeight="medium" mb={1}>Test</Text>
-          <Select 
-            value={selectedTest} 
+          <Select
+            value={selectedTest}
             onChange={(e) => setSelectedTest(e.target.value)}
             bg="white"
             size="md"
@@ -261,7 +261,7 @@ const Dashboard = () => {
   // Obtenir les paramètres du test avec leurs unités et labels
   const { getTestParameters } = useData();
   const testParameters = getTestParameters(selectedTest);
-  
+
   // Créer un mapping des clés vers les unités et labels pour un accès facile
   const parameterMap = Object.fromEntries(
     testParameters.map(param => [param.key, { unit: param.unit, label: param.label }])
@@ -270,7 +270,7 @@ const Dashboard = () => {
     <Box p={6}>
       {renderSelectors()}
       <VStack spacing={6} align="stretch">
-        {/* Informations sur la sélection en cours */}        
+        {/* Informations sur la sélection en cours */}
         <Box {...cardStyle}>
           <Heading size="md" mb={6} color={headingColor}>
             {selectedTest}
@@ -291,72 +291,89 @@ const Dashboard = () => {
           </Grid>
         </Box>
         {selectedTest === "Cellules" && <CellViewer data={data} />}
-        {Object.entries(data).some(([key, value]) => 
-          key !== 'file' && 
+        {Object.entries(data).some(([key, value]) =>
+          key !== 'file' &&
           (typeof value !== 'object' || value === null)
         ) && (
-          <Box {...cardStyle}>
-            <Heading size="md" mb={4} color={headingColor}>
-              Valeurs du test
-            </Heading>            
-            <StatGroup>
-              {Object.entries(data)
-                .filter(([key, value]) => 
-                  // Filter out the file key and any complex objects that aren't meant to be displayed
-                  key !== 'file' && 
-                  (typeof value !== 'object' || value === null)
-                )
-                .map(([key, value]) => (
-                  <TestValue 
-                    key={key} 
-                    label={parameterMap[key]?.label || key} 
-                    value={value} 
-                    unit={parameterMap[key]?.unit || ''} 
-                  />
-                ))
-              }
-            </StatGroup>
-          </Box>
-        )}{/* Affichage de l'image si elle existe */}
+            <Box {...cardStyle}>
+              <Heading size="md" mb={4} color={headingColor}>
+                Valeurs du test
+              </Heading>
+              <StatGroup>
+                {Object.entries(data)
+                  .filter(([key, value]) =>
+                    // Filter out the file key and any complex objects that aren't meant to be displayed
+                    key !== 'file' &&
+                    (typeof value !== 'object' || value === null)
+                  )
+                  .map(([key, value]) => (
+                    <TestValue
+                      key={key}
+                      label={parameterMap[key]?.label || key}
+                      value={value}
+                      unit={parameterMap[key]?.unit || ''}
+                    />
+                  ))
+                }
+              </StatGroup>
+            </Box>
+          )}{/* Affichage de l'image si elle existe */}
         {data.file && typeof data.file === 'string' ? (
           <Box {...cardStyle}>
             <Heading size="md" mb={4} color={headingColor}>
               Visuel
-            </Heading>            
+            </Heading>
             <Box textAlign="center">
-              <ImageViewer 
-                src={`./${data.file}`} 
-                alt={`${selectedTest} - Batch ${selectedBatch}, Semaine ${selectedWeek}, ${selectedBuffer}`} 
+              <ImageViewer
+                src={`./${data.file}`}
+                alt={`${selectedTest} - Batch ${selectedBatch}, Semaine ${selectedWeek}, ${selectedBuffer}`}
                 maxH="500px"
               />
             </Box>
           </Box>
-        ) : null}        {/* Section de changement - affiche les statistiques d'évolution */}
-        {Object.entries(data).some(([key, value]) => 
-          key !== 'file' && 
-          (typeof value !== 'object' || value === null)) && (
-          <Box {...cardStyle}>
-            <Heading size="md" mb={4} color={headingColor}>
-              Évolution (Semaine 1 à Semaine 6)
-            </Heading>
-            <ChangeStats testType={selectedTest} />
-       
-            <Tabs colorScheme="teal" variant="enclosed" mt={10} align='center'>
-              <TabList>
-                <Tab>Suivi dans le temps</Tab>
-                <Tab>Comparaison des buffers</Tab>
-              </TabList>
-              <TabPanels>
-                <TabPanel>
-                  <TestChart testType={selectedTest} />
-                </TabPanel>
-                <TabPanel>
-                  <ComparisonChart testType={selectedTest} />
-                </TabPanel>
-              </TabPanels>
-            </Tabs>
-          </Box>
-        )}
+        ) : null}
+        <Box {...cardStyle}>
+          <Heading size="md" mb={4} color={headingColor}>
+            Évolution (Semaine 1 à Semaine 6)
+          </Heading>
+          {Object.entries(data).some(([key, value]) =>
+            key !== 'file' && (typeof value !== 'object' || value === null)) && (
+          <ChangeStats testType={selectedTest} />
+          )}
+
+          <Tabs colorScheme="teal" variant="enclosed" mt={10} align='center'>
+            <TabList>
+              <Tab>Suivi dans le temps</Tab>
+              <Tab>Comparaison des buffers</Tab>
+            </TabList>
+            <TabPanels>
+              <TabPanel>
+                {Object.entries(data).some(([key, value]) => 
+                  key !== 'file' && 
+                  (typeof value !== 'object' || value === null)) ? ( 
+                <TestChart testType={selectedTest} />
+                ) : (
+                  <ImageViewer
+                    src={`./images/${selectedTest}/Evolution/Batch_${selectedBatch}_${selectedBuffer}.png`}
+                    alt="Évolution des tests"
+                    maxH="600px"/>
+                )}
+              </TabPanel>
+              <TabPanel>
+                {Object.entries(data).some(([key, value]) => 
+                  key !== 'file' && 
+                  (typeof value !== 'object' || value === null)) ? ( 
+                <ComparisonChart testType={selectedTest} />
+                ) : (
+                  <ImageViewer
+                    src={`./images/${selectedTest}/Evolution/Batch_${selectedBatch}_Week_${selectedWeek}.png`}
+                    alt="Comparaison des buffers"
+                    maxH="600px"/>
+                )}
+              </TabPanel>
+            </TabPanels>
+          </Tabs>
+        </Box>
       </VStack>
     </Box>
   );

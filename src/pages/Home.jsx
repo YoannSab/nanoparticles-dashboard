@@ -1,40 +1,34 @@
-import { 
-  Box, 
-  Heading, 
-  Text, 
-  SimpleGrid, 
-  Stat, 
-  StatLabel, 
-  StatNumber, 
-  StatHelpText,
+import {
+  Box,
+  Heading,
+  Text,
+  SimpleGrid,
+  Stat,
+  StatLabel,
+  StatNumber,
   Container,
   Alert,
   AlertIcon,
   VStack,
-  HStack,
-  Card,
-  CardHeader,
-  CardBody,
-  Badge,
   Button,
   Flex,
-  Icon
+  Icon,
+  Divider,
+  Image,
 } from "@chakra-ui/react";
 import { Link as RouterLink } from 'react-router-dom';
-import { HiChartBar, HiTrendingUp } from 'react-icons/hi';
+import { HiChartBar } from 'react-icons/hi';
 import { useData } from "../context/DataContext";
 
 const Home = () => {
-  const { 
-    data, 
-    loading, 
+  const {
+    loading,
     error,
     getBatches,
-    getWeeks,
   } = useData();
 
   const batches = getBatches();
-  
+
   const headingColor = 'teal.700';
   const cardBg = 'white';
 
@@ -57,64 +51,48 @@ const Home = () => {
     );
   }
 
-  // Calculer les statistiques globales
-  const calculateStats = () => {
-    let totalTests = 0;
-    let totalBuffers = 0;
-    let totalWeeks = 0;
-    
-    if (!data) return { totalTests, totalBuffers, totalWeeks };
-    
-    batches.forEach(batch => {
-      const weeks = getWeeks(batch);
-      totalWeeks += weeks.length;
-      
-      weeks.forEach(week => {
-        const buffers = Object.keys(data[batch][week]);
-        totalBuffers += buffers.length;
-        
-        buffers.forEach(buffer => {
-          // Compter les tests sauf "Cellules" qui est un cas spécial
-          const tests = Object.keys(data[batch][week][buffer]).filter(t => t !== "Cellules");
-          totalTests += tests.length;
-          
-          // Pour "Cellules", compter chaque type de cellule comme un test
-          if (data[batch][week][buffer]["Cellules"]) {
-            const cellTypes = Object.keys(data[batch][week][buffer]["Cellules"]);
-            totalTests += cellTypes.length;
-          }
-        });
-      });
-    });
-    
-    return { totalTests, totalBuffers, totalWeeks };
-  };
-  
-  const stats = calculateStats();
-
   return (
     <Container maxW="container.xl" py={8}>
-      <VStack spacing={8} align="stretch">        
+      <VStack spacing={8} align="stretch">
         <Box textAlign="center" py={10}>
-          <Heading as="h1" size="2xl" mb={4} color={headingColor}>
-            Dashboard Nanoparticules
+          {/* Header */}
+          <Heading as="h1" size="xl" mb={5} color={headingColor}>
+            Nanoparticules d'Or Fonctionnalisées <br />pour le Diagnostic du Cancer du Sein
           </Heading>
-          <Text fontSize="xl" mb={8}>
-            Visualisation et analyse des données de stabilité des nanoparticules
+          <Divider mb={8} />
+          <Text fontSize="lg" textAlign="center" mb={8}>
+            Résultats de la maîtrise de recherche de Charline Courbon
           </Text>
-          
-          <Flex justify="center" gap={6} mb={8}>
-            <Button 
-              as={RouterLink} 
-              to="/dashboard" 
-              size="lg" 
-              colorScheme="teal" 
-              leftIcon={<Icon as={HiChartBar} />}
-              px={8}
-            >
+
+          {/* Logos */}
+          <VStack spacing={4} align="center">
+            <Flex justify="center" gap={16} mb={10}>
+              <Image
+                src="./polymtl.png"
+                alt="Polytechnique Montréal"
+                height="100px"
+                objectFit="contain"
+              />
+              <Image
+                src="./lp2l.png"
+                alt="Laboratoire LP2L"
+                height="100px"
+                objectFit="contain"
+              />
+            </Flex>
+            <Button
+                  as={RouterLink}
+                  to="/dashboard"
+                  size="xl"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={HiChartBar} boxSize={8} />}
+                  px={10}
+                  py={7}
+                  fontSize={25}
+                >
               Consulter le Dashboard
             </Button>
-          </Flex>
+          </VStack>
         </Box>
 
         {/* Statistiques globales */}
@@ -123,20 +101,20 @@ const Home = () => {
             <StatLabel fontSize="lg">Batches</StatLabel>
             <StatNumber fontSize="4xl" color="teal.500">{batches.length}</StatNumber>
           </Stat>
-          
+
           <Stat bg={cardBg} p={5} borderRadius="lg" boxShadow="md" textAlign="center">
             <StatLabel fontSize="lg">Semaines de tests</StatLabel>
-            <StatNumber fontSize="4xl" color="blue.500">{stats.totalWeeks}</StatNumber>
+            <StatNumber fontSize="4xl" color="blue.500">{6}</StatNumber>
           </Stat>
-          
+
           <Stat bg={cardBg} p={5} borderRadius="lg" boxShadow="md" textAlign="center">
             <StatLabel fontSize="lg">Buffers analysés</StatLabel>
-            <StatNumber fontSize="4xl" color="purple.500">{stats.totalBuffers}</StatNumber>
+            <StatNumber fontSize="4xl" color="purple.500">{6}</StatNumber>
           </Stat>
-          
+
           <Stat bg={cardBg} p={5} borderRadius="lg" boxShadow="md" textAlign="center">
             <StatLabel fontSize="lg">Tests effectués</StatLabel>
-            <StatNumber fontSize="4xl" color="green.500">{stats.totalTests}</StatNumber>
+            <StatNumber fontSize="4xl" color="green.500">{648}</StatNumber>
           </Stat>
         </SimpleGrid>
 
@@ -160,7 +138,7 @@ const Home = () => {
             </Box>
           </SimpleGrid>
         </Box>
-        
+
         {/* Informations sur les Buffers */}
         <Box bg={cardBg} p={6} borderRadius="lg" boxShadow="md">
           <Heading as="h2" size="md" mb={4} color={headingColor}>
@@ -194,7 +172,7 @@ const Home = () => {
           </SimpleGrid>
         </Box>
 
-              {/* Instructions */}
+        {/* Instructions */}
         <Box bg={cardBg} p={6} borderRadius="lg" boxShadow="md">
           <Heading as="h2" size="md" mb={4} color={headingColor}>
             Comment utiliser ce dashboard
