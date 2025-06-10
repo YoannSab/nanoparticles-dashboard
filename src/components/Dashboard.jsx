@@ -63,13 +63,23 @@ const TestValue = ({ label, value, unit = "" }) => {
 };
 
 // Composant pour afficher les statistiques de changement
-const ChangeStats = ({ testType }) => {
+const ChangeStats = ({ testType, data }) => {
   const {
     selectedBatch,
     selectedBuffer,
     calculateChangeStats,
     getTestParameters
   } = useData();
+
+  // Vérifier si nous avons des données à afficher
+  const hasDataToShow = data && Object.entries(data).some(([key, value]) =>
+    key !== 'file' && (typeof value !== 'object' || value === null)
+  );
+
+  // Si pas de données, ne rien afficher
+  if (!hasDataToShow) {
+    return null;
+  }
 
   const parameters = getTestParameters(testType);
   const cardBg = 'white';
@@ -144,7 +154,8 @@ const Dashboard = () => {
     getBatches,
     getWeeks,
     getBuffers,
-    getTests
+    getTests,
+    getTestParameters // Déplacer ce hook ici
   } = useData();
 
   const [data, setData] = useState(null);
@@ -160,6 +171,14 @@ const Dashboard = () => {
 
   const cardBg = 'white';
   const headingColor = 'teal.700';
+
+  // Obtenir les paramètres du test avec leurs unités et labels
+  const testParameters = getTestParameters(selectedTest);
+
+  // Créer un mapping des clés vers les unités et labels pour un accès facile
+  const parameterMap = Object.fromEntries(
+    testParameters.map(param => [param.key, { unit: param.unit, label: param.label }])
+  );
 
   // Selector bar styles
   const selectorBar = {
@@ -250,7 +269,6 @@ const Dashboard = () => {
       </Box>
     );
   }
-
   // Style de carte pour chaque section
   const cardStyle = {
     bg: cardBg,
@@ -258,14 +276,7 @@ const Dashboard = () => {
     borderRadius: 'lg',
     p: 5,
   };
-  // Obtenir les paramètres du test avec leurs unités et labels
-  const { getTestParameters } = useData();
-  const testParameters = getTestParameters(selectedTest);
-
-  // Créer un mapping des clés vers les unités et labels pour un accès facile
-  const parameterMap = Object.fromEntries(
-    testParameters.map(param => [param.key, { unit: param.unit, label: param.label }])
-  );
+  
   return (
     <Box p={6}>
       {renderSelectors()}
@@ -331,15 +342,11 @@ const Dashboard = () => {
               />
             </Box>
           </Box>
-        ) : null}
-        <Box {...cardStyle}>
+        ) : null}        <Box {...cardStyle}>
           <Heading size="md" mb={4} color={headingColor}>
             Évolution (Semaine 1 à Semaine 6)
           </Heading>
-          {Object.entries(data).some(([key, value]) =>
-            key !== 'file' && (typeof value !== 'object' || value === null)) && (
-          <ChangeStats testType={selectedTest} />
-          )}
+          <ChangeStats testType={selectedTest} data={data} />
 
           <Tabs colorScheme="teal" variant="enclosed" mt={10} align='center'>
             <TabList>
